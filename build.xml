@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xml>
+<project name="Pandawee Plugin" default="Build">
+
+
+    <target name="Build">
+        <!-- You can copy the <jar> block above multiple times if you have multi-version testing servers -->
+        <jar jarfile="C:\Users\eriks\Desktop\CSKnow\PluginDevelopment\Apocalpyse\Pandawee Plugin\out\artifacts\pandawee_jar\pandawee.jar"
+             basedir="./target/classes/" includes="**/*">
+
+        </jar>
+    </target>
+
+</project>

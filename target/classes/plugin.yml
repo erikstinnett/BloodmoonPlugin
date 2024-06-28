@@ -1,0 +1,14 @@
+name: PandaweePlugin
+version: '1.0-SNAPSHOT'
+main: pluginproject.pandawee.PandaweePlugin
+api-version: '1.20'
+commands:
+  gettime:
+    description: Gets the current in-game time
+    usage: /gettime
+  scout:
+    description: Choose a class
+    usage: /class <classname>
+  ranger:
+    description: Choose a class
+    usage: /class <classname>

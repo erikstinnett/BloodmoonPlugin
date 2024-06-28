@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pandawee:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pandawee_jar</output-path>
+    <root id="archive" name="pandawee.jar">
+      <element id="module-output" name="pandawee" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
