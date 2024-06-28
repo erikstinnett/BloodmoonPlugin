@@ -54,7 +54,7 @@ public class Ranger implements CommandExecutor {
     public void removeRanger(Player player) {
         rangers.remove(player);
         player.setInvisible(false);
-        player.sendMessage(ChatColor.RED + "You are no longer a Ranger.");
+        player.sendMessage(ChatColor.RED + "You are no longer a Ranger bro.");
     }
 
     public void checkDawn() {
